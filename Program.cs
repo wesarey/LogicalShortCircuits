@@ -1,5 +1,11 @@
 ﻿namespace LogicalShortCircuits
 {
+    public class TruthHolder
+    {
+        public bool IsTrue { get; set; }
+        public string? Description { get; set; }
+    }
+
     internal class Program
     {
         static void Main(string[] args)
@@ -39,9 +45,5 @@
         }
     }
 
-    public class TruthHolder
-    {
-        public bool IsTrue { get; set; }
-        public string Description { get; set; }
-    }
+    
 }
