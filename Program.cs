@@ -22,14 +22,14 @@
                 Console.WriteLine("All truths are true");
             } else
             {
-                // exceptionThrower is null and would have thrown an error accessing the "IsTrue" property
+                // thirdTruth is null and would have thrown an error accessing the "IsTrue" property
                 Console.WriteLine("At least one truth is false");
             }
 
             // Logical OR operations will short-circuit when the first true value is found
             if (skyIsBlue.IsTrue || grassIsGreener.IsTrue || thirdTruth.IsTrue)
             {
-                // exceptionThrower is null and would have thrown an error accessing the "IsTrue" property
+                // thirdTruth is null and would have thrown an error accessing the "IsTrue" property
                 Console.WriteLine("At least one truth is true");
 
                 // Because we made it inside this code block, we may think it is safe to access the properties of "thirdTruth"
